@@ -1,0 +1,155 @@
+fileFormatVersion: 2
+guid: 30136bc5c28113a4fae474e244afc821
+ModelImporter:
+  serializedVersion: 23
+  fileIDToRecycleName:
+    100000: //RootNode
+    100002: default
+    400000: //RootNode
+    400002: default
+    2100000: valve
+    2100002: reflector-orange-plastic
+    2100004: pedal-reflector
+    2100006: chain-inner-links
+    2100008: chain-pins
+    2100010: chain-outer-links
+    2100012: hubs
+    2100014: hubs_NONE
+    2100016: valve-cap
+    2100018: sidewalls
+    2100020: spoke
+    2100022: rims
+    2100024: grand-bois-tire
+    2100026: hub-inner-ring
+    2100028: hub-bearing
+    2100030: saddle-clamp-bolt-glossy
+    2100032: saddle-clamp-bolt
+    2100034: saddle
+    2100036: seat-clamp
+    2100038: seat-post
+    2100040: saddle-rails
+    2100042: saddle-black-plastic
+    2100044: bullhorn
+    2100046: end-plugs
+    2100048: stem-bolts
+    2100050: stem-cap
+    2100052: stem
+    2100054: spacers
+    2100056: bartape
+    2100058: bb-collar
+    2100060: lock-nut
+    2100062: axle-nuts
+    2100064: axles
+    2100066: seat-post-clamp
+    2100068: seat-post-clamp-bolt
+    2100070: seat-post-clamp-nut
+    2100072: bottlecage-nuts
+    2100074: headset
+    2100076: headset_NONE
+    2100078: wabi-frame-mix
+    2100080: wabi-frame-mix_NONE
+    2100082: wabi-frame-carpaint
+    2100084: crankset
+    2100086: chainring-metal
+    2100088: chainrnig-black
+    2100090: washer
+    2100092: crankset-bolts
+    2100094: pedal-axle
+    2100096: pedal
+    2100098: pedal-bolt
+    2100100: pedal-spikes
+    2100102: chainring-bolts
+    2100104: crankset_andel-crankset-normalmap.png
+    2100106: chainring-metal_NONE
+    2100108: cog
+    2100110: cog-lockring
+    2300000: default
+    3300000: default
+    4300000: default
+    2186277476908879412: ImportLogs
+  externalObjects: {}
+  materials:
+    importMaterials: 1
+    materialName: 0
+    materialSearch: 1
+    materialLocation: 1
+  animations:
+    legacyGenerateAnimations: 4
+    bakeSimulation: 0
+    resampleCurves: 1
+    optimizeGameObjects: 0
+    motionNodeName: 
+    rigImportErrors: 
+    rigImportWarnings: 
+    animationImportErrors: 
+    animationImportWarnings: 
+    animationRetargetingWarnings: 
+    animationDoRetargetingWarnings: 0
+    importAnimatedCustomProperties: 0
+    importConstraints: 0
+    animationCompression: 1
+    animationRotationError: 0.5
+    animationPositionError: 0.5
+    animationScaleError: 0.5
+    animationWrapMode: 0
+    extraExposedTransformPaths: []
+    extraUserProperties: []
+    clipAnimations: []
+    isReadable: 1
+  meshes:
+    lODScreenPercentages: []
+    globalScale: 1
+    meshCompression: 0
+    addColliders: 0
+    useSRGBMaterialColor: 1
+    importVisibility: 1
+    importBlendShapes: 1
+    importCameras: 1
+    importLights: 1
+    swapUVChannels: 0
+    generateSecondaryUV: 0
+    useFileUnits: 1
+    optimizeMeshForGPU: 1
+    keepQuads: 0
+    weldVertices: 1
+    preserveHierarchy: 0
+    indexFormat: 0
+    secondaryUVAngleDistortion: 8
+    secondaryUVAreaDistortion: 15.000001
+    secondaryUVHardAngle: 88
+    secondaryUVPackMargin: 4
+    useFileScale: 1
+    previousCalculatedGlobalScale: 1
+    hasPreviousCalculatedGlobalScale: 0
+  tangentSpace:
+    normalSmoothAngle: 60
+    normalImportMode: 0
+    tangentImportMode: 3
+    normalCalculationMode: 4
+    legacyComputeAllNormalsFromSmoothingGroupsWhenMeshHasBlendShapes: 0
+    blendShapeNormalImportMode: 1
+    normalSmoothingSource: 0
+  importAnimation: 1
+  copyAvatar: 0
+  humanDescription:
+    serializedVersion: 2
+    human: []
+    skeleton: []
+    armTwist: 0.5
+    foreArmTwist: 0.5
+    upperLegTwist: 0.5
+    legTwist: 0.5
+    armStretch: 0.05
+    legStretch: 0.05
+    feetSpacing: 0
+    rootMotionBoneName: 
+    hasTranslationDoF: 0
+    hasExtraRoot: 0
+    skeletonHasParents: 1
+  lastHumanDescriptionAvatarSource: {instanceID: 0}
+  animationType: 0
+  humanoidOversampling: 1
+  additionalBone: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

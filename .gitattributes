@@ -1,0 +1,4 @@
+# Auto detect text files and perform LF normalization
+* text=auto
+Assets/Scenes/Bicycle[[:space:]]Testing/B2_BikeLane.unity filter=lfs diff=lfs merge=lfs -text
+Assets/Scenes/Bicycle[[:space:]]Testing/B2_BikeLane[[:space:]]1.unity filter=lfs diff=lfs merge=lfs -text
