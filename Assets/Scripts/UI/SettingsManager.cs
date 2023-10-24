@@ -10,24 +10,13 @@ using UnityEngine.XR;
 
 public class SettingsManager : MonoBehaviour
 {
-    Dropdown sceneDropdown,playerTypeDropdown, colorDropdown;  // scene dropdown ui
-    Dropdown envDropdown; // environment dropdown ui
-    InputField avoidMagField, raycastOneAngleField, raycastDistField, speedVariationField, slopeMultField;
-
+    [SerializeField] Dropdown sceneDropdown,playerTypeDropdown, colorDropdown;  // scene dropdown ui
+    
+    [SerializeField] Dropdown envDropdown; // environment dropdown ui
+    [SerializeField] InputField avoidMagField, raycastOneAngleField, raycastDistField, speedVariationField, slopeMultField;
+    [SerializeField] Text statusText;
     void Start() {
         XRSettings.enabled=false;
-        // grab reference to env dropdown
-        envDropdown = GameObject.Find("Canvas/EnvDropdown").GetComponent<Dropdown>();
-
-        // grab reference to all UI Objects
-        sceneDropdown = GameObject.Find("Canvas/SceneDropdown").GetComponent<Dropdown>();
-        avoidMagField = GameObject.Find("AvoidVars/AvoidMagnitude/AvoidMagInputField").GetComponent<InputField>();
-        raycastOneAngleField = GameObject.Find("AvoidVars/RayCastOneAngle/RayCastAngInputField").GetComponent<InputField>();
-        raycastDistField = GameObject.Find("AvoidVars/RaycastDistance/RaycastDistInputField").GetComponent<InputField>();
-        speedVariationField = GameObject.Find("DriveVars/SpeedVariation/SpeedVariationInputField").GetComponent<InputField>();
-        slopeMultField = GameObject.Find("DriveVars/SlopeMultiplier/SlopeMultiplierInputField").GetComponent<InputField>();
-        playerTypeDropdown = GameObject.Find("Canvas/TypeDropdown").GetComponent<Dropdown>();
-        colorDropdown = GameObject.Find("Canvas/ColorDropdown").GetComponent<Dropdown>();
 
         //Add listener for when the value of the Dropdown changes, to take action
         playerTypeDropdown.onValueChanged.AddListener(delegate {
@@ -67,8 +56,6 @@ public class SettingsManager : MonoBehaviour
         StateSettingController.playerType = (StateSettingController.PlayerType)playerTypeDropdown.value;
         StateSettingController.playerColor = (StateSettingController.PlayerColor)colorDropdown.value;
         
-
-        Text statusText = GameObject.Find("Canvas/Status").GetComponent<Text>();
         statusText.text = "Simulation Starting. Please wait...";
 
         // use coroutine so that UI can update the status text before starting the new scene.

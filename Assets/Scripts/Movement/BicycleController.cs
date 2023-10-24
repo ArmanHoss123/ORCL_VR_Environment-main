@@ -80,9 +80,9 @@ public class BicycleController : Controller
     private float slopeAngleDrift;
 
     // GameObject References
-    private GameObject steamVRObjects;
-    private GameObject bikeMesh;
-    private Camera vrCamera;
+    [SerializeField] private GameObject steamVRObjects;
+    [SerializeField] private GameObject bikeMesh;
+    [SerializeField] private Camera vrCamera;
 
     float velocity;
     Vector3 location;
@@ -104,9 +104,9 @@ public class BicycleController : Controller
             }
             originalSpeed = speed;
         }
-        steamVRObjects = GameObject.Find("SteamVRObjects");
-        bikeMesh = GameObject.Find("Cykel1");
-        vrCamera = GameObject.Find("VRCamera").GetComponent<Camera>();
+        // steamVRObjects = GameObject.Find("SteamVRObjects");
+        // bikeMesh = GameObject.Find("Cykel1");
+        // vrCamera = GameObject.Find("VRCamera").GetComponent<Camera>();
     }
 
     IEnumerator HideHandsAfterWaiting() {

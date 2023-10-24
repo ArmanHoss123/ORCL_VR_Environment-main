@@ -4998,6 +4998,16 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 2c7bc4280041f9f43b58e80d03a65ac7, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  sceneDropdown: {fileID: 1521932622}
+  playerTypeDropdown: {fileID: 1621601910}
+  colorDropdown: {fileID: 1414464482}
+  envDropdown: {fileID: 1982927697}
+  avoidMagField: {fileID: 804523963}
+  raycastOneAngleField: {fileID: 2111828100}
+  raycastDistField: {fileID: 1898444326}
+  speedVariationField: {fileID: 1405154849}
+  slopeMultField: {fileID: 573357261}
+  statusText: {fileID: 661491449}
 --- !u!4 &1365835238
 Transform:
   m_ObjectHideFlags: 0

@@ -11,4 +11,13 @@ EditorBuildSettings:
   - enabled: 1
     path: Assets/Scenes/Bicycle Testing/B0_MultiUserTest.unity
     guid: 5fdca485c83d53c4e883b24ea2a27f75
+  - enabled: 1
+    path: Assets/Scenes/Bicycle Testing/B1_AsBuilt.unity
+    guid: 66d38eff6e2119e4aa94ec94aae499ed
+  - enabled: 1
+    path: Assets/Scenes/Bicycle Testing/B2_BikeLane.unity
+    guid: a9801445c36960141b986b1a1dd8f194
+  - enabled: 1
+    path: Assets/Scenes/Bicycle Testing/B3_ProtectedBikeLane.unity
+    guid: 079863c3b0c80b842a7f40f87e8575ee
   m_configObjects: {}
