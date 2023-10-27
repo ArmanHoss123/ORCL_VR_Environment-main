@@ -81,7 +81,7 @@ public class BicycleController : Controller
 
     // GameObject References
     [SerializeField] private GameObject steamVRObjects;
-    [SerializeField] private GameObject bikeMesh;
+    private GameObject bikeMesh;
     [SerializeField] private Camera vrCamera;
 
     float velocity;
@@ -105,7 +105,7 @@ public class BicycleController : Controller
             originalSpeed = speed;
         }
         // steamVRObjects = GameObject.Find("SteamVRObjects");
-        // bikeMesh = GameObject.Find("Cykel1");
+        bikeMesh = GameObject.Find("Cykel1");
         // vrCamera = GameObject.Find("VRCamera").GetComponent<Camera>();
     }
 
