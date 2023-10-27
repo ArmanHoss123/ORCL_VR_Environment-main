@@ -14,13 +14,16 @@ EditorBuildSettings:
   - enabled: 1
     path: Assets/Scenes/Bicycle Testing/B1_AsBuilt.unity
     guid: 66d38eff6e2119e4aa94ec94aae499ed
-  - enabled: 1
+  - enabled: 0
     path: Assets/Scenes/Bicycle Testing/B2_BikeLane.unity
     guid: a9801445c36960141b986b1a1dd8f194
-  - enabled: 1
+  - enabled: 0
     path: Assets/Scenes/Bicycle Testing/B3_ProtectedBikeLane.unity
     guid: 079863c3b0c80b842a7f40f87e8575ee
   - enabled: 1
     path: Assets/Scenes/Bicycle Testing/B2_BikeLane 2.unity
     guid: 5434f7ce39182f24f8ad41f0f3212773
+  - enabled: 1
+    path: Assets/Scenes/Bicycle Testing/B2_ProtectedBikeLane 2.unity
+    guid: dd86d34123352c245a5a5b9fedb137cf
   m_configObjects: {}
